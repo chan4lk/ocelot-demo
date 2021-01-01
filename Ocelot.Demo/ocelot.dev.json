@@ -15,6 +15,18 @@
         "AuthenticationProviderKey": "TestKey",
         "AuthenticationScopes": [ "apiscope" ]
       }
+    },
+    {
+      "DownstreamPathTemplate": "/connect/token",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44356"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/token",
+      "UpstreamHttpMethod": [ "Post" ]
     }
   ],
   "GlobalConfiguration": {

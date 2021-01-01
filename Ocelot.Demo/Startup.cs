@@ -19,6 +19,14 @@ namespace Ocelot.Demo
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.WithOrigins("https://localhost:44386")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            });
+
             services.AddAuthentication()
                     .AddJwtBearer("TestKey", options =>
                     {
@@ -48,6 +56,8 @@ namespace Ocelot.Demo
                     await context.Response.WriteAsync("Hello World!");
                 });
             });
+
+            app.UseCors("CorsPolicy");
 
             app
                 .UseAuthentication()

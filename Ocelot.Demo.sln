@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot.Api", "Ocelot.Api\Oc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{7391ED70-153C-4F6C-82FB-907F3FC68AF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot.Client", "Ocelot.Client\Ocelot.Client.csproj", "{E4DB1DF7-952D-42F4-BDB1-53633525D1C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7391ED70-153C-4F6C-82FB-907F3FC68AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7391ED70-153C-4F6C-82FB-907F3FC68AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7391ED70-153C-4F6C-82FB-907F3FC68AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DB1DF7-952D-42F4-BDB1-53633525D1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DB1DF7-952D-42F4-BDB1-53633525D1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DB1DF7-952D-42F4-BDB1-53633525D1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DB1DF7-952D-42F4-BDB1-53633525D1C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
