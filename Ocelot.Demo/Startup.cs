@@ -22,7 +22,7 @@ namespace Ocelot.Demo
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
-                    builder => builder.WithOrigins("https://localhost:44386")
+                    builder => builder.WithOrigins("https://localhost:44386", "https://localhost:44307")
                         .AllowAnyMethod()
                         .AllowAnyHeader());
             });

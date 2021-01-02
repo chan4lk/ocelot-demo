@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot.Demo", "Ocelot.Demo\Ocelot.Demo.csproj", "{7B080BD0-441F-469A-9C50-EF7DE5EC76A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocelot.Demo", "Ocelot.Demo\Ocelot.Demo.csproj", "{7B080BD0-441F-469A-9C50-EF7DE5EC76A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot.Api", "Ocelot.Api\Ocelot.Api.csproj", "{2CADEABA-8C13-40C8-B0B3-E2FEDD63EC5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocelot.Api", "Ocelot.Api\Ocelot.Api.csproj", "{2CADEABA-8C13-40C8-B0B3-E2FEDD63EC5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{7391ED70-153C-4F6C-82FB-907F3FC68AF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{7391ED70-153C-4F6C-82FB-907F3FC68AF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot.Client", "Ocelot.Client\Ocelot.Client.csproj", "{E4DB1DF7-952D-42F4-BDB1-53633525D1C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocelot.Client", "Ocelot.Client\Ocelot.Client.csproj", "{E4DB1DF7-952D-42F4-BDB1-53633525D1C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot.NuxtClient", "Ocelot.NuxtClient\Ocelot.NuxtClient.csproj", "{842F25D1-7B88-481D-95A8-A7F4FBACA3C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E4DB1DF7-952D-42F4-BDB1-53633525D1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4DB1DF7-952D-42F4-BDB1-53633525D1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4DB1DF7-952D-42F4-BDB1-53633525D1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842F25D1-7B88-481D-95A8-A7F4FBACA3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842F25D1-7B88-481D-95A8-A7F4FBACA3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842F25D1-7B88-481D-95A8-A7F4FBACA3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842F25D1-7B88-481D-95A8-A7F4FBACA3C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
