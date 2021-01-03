@@ -1,0 +1,28 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+
+name: myweatherapp
+services:
+- name: identity
+  project: IdentityServer/IdentityServer.csproj
+  bindings:
+    - port: 44356
+      protocol: https
+- name: api
+  project: Ocelot.Api/Ocelot.Api.csproj
+  bindings:
+    - port: 44375
+      protocol: https
+- name: api-gateway
+  project: Ocelot.Demo/Ocelot.Demo.csproj
+  env:
+    - name: ASPNETCORE_ENVIRONMENT
+      value: dev
+  bindings:
+    - port: 44324
+      protocol: https
+- name: nuxt-client
+  project: Ocelot.NuxtClient/Ocelot.NuxtClient.csproj
+  bindings:
+    - port: 44307
+      protocol: https
