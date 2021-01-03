@@ -80,7 +80,10 @@ export default {
 <style>
   .container {
     margin: 0 auto;
-    max-width: 976px;
-    padding: 15px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 </style>
