@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     getWeatherForecasts () {
-      const baseUrl = 'https://localhost:44324'
+      const baseUrl = '';
 
       const data = new URLSearchParams()
       data.append('grant_type', 'client_credentials')
