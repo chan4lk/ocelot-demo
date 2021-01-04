@@ -33,6 +33,7 @@ export default {};
   height: 300px;
   position: relative;
   padding: 30px;
+  background-image: url("~assets/images/page-background.jpg");
   background-position: center;
   background-size: cover;
 }
