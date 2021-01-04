@@ -1,5 +1,7 @@
 <template>
-  <div class="posts-page" />
+  <div class="posts-page">
+    <PostList />
+  </div>
 </template>
 <script>
 export default {};

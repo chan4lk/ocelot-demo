@@ -3,26 +3,7 @@
     <section class="intro">
       <h1>Get the latest tech news!</h1>
     </section>
-    <section class="featured-posts">
-      <post-preview
-        id="1"
-        title="Hello There"
-        preview-text="This is my first post"
-        :thumbnail="'https://s27389.pcdn.co/wp-content/uploads/2019/10/retail-innovation-changing-tech-consumer-employee-demands-1024x440.jpeg'"
-      />
-      <post-preview
-        id="2"
-        title="Hello There"
-        preview-text="This is my second post"
-        :thumbnail="'https://s27389.pcdn.co/wp-content/uploads/2019/10/retail-innovation-changing-tech-consumer-employee-demands-1024x440.jpeg'"
-      />
-      <post-preview
-        id="3"
-        title="Hello There"
-        preview-text="This is my third post"
-        :thumbnail="'https://s27389.pcdn.co/wp-content/uploads/2019/10/retail-innovation-changing-tech-consumer-employee-demands-1024x440.jpeg'"
-      />
-    </section>
+    <PostList />
   </div>
 </template>
 <script>
@@ -56,13 +37,5 @@ export default {};
   .intro h1 {
     font-size: 2rem;
   }
-}
-
-.featured-posts {
-  display: flex;
-  padding: 20px;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 }
 </style>

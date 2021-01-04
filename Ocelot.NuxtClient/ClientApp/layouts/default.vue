@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      displaySidenav: true,
+      displaySidenav: false,
     };
   },
 };
