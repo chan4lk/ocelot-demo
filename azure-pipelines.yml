@@ -18,7 +18,8 @@ steps:
 - script: |
     cd Ocelot.NuxtClient/ClientApp
     npm install
-    npm run build
+    npm run generate
+    ls
   displayName: 'npm install and build'
 - task: CopyFiles@2
   inputs:
