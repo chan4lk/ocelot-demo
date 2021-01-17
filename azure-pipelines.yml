@@ -21,6 +21,11 @@ steps:
     npm run generate
     ls
   displayName: 'npm install and build'
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/Ocelot.NuxtClient/ClientApp'
+    Contents: 'Web.config'
+    TargetFolder: '$(Build.SourcesDirectory)/Ocelot.NuxtClient/ClientApp/dist'
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: '$(Build.SourcesDirectory)/Ocelot.NuxtClient/ClientApp/dist'
